@@ -25,7 +25,7 @@ SECRET_KEY = '+p1m1a%k@iv90gz&=xsv$gz-08ns(39$uzb!jmz8vnlvz82xf9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['minutka.9733.ru']
 
 
 # Application definition
