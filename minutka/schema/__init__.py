@@ -12,7 +12,7 @@ class ReviewType(DjangoObjectType):
 class Query(graphene.ObjectType):
     reviews = graphene.List(ReviewType)
     def resolve_reviews(self, info, **kwargs):
-        return Review.objects.filter(published=True)
+        return Review.objects.filter(published=True).order_by('-pub_date')
 
 
 schema = graphene.Schema(
