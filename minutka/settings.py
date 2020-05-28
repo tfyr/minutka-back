@@ -33,7 +33,7 @@ else:
     DEBUG = False
 
 
-ALLOWED_HOSTS = ['minutka.9733.ru', 'minutka-abzakovo.ru', 'www.minutka-abzakovo.ru',]
+ALLOWED_HOSTS = ['django', 'minutka.9733.ru', 'minutka-abzakovo.ru', 'www.minutka-abzakovo.ru',]
 
 
 # Application definition
